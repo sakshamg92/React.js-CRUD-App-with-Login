@@ -33,10 +33,8 @@ react-crud-app/
    cd react-crud-app
    ```
 
-2. **Install dependencies:**
-   ```bash
    npm install
-   ```
+   
 
 3. **Run the app:**
    ```bash
