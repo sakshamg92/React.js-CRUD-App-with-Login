@@ -29,17 +29,6 @@ react-crud-app/
 │── README.md
 ```
 
-## 🔥 Setup & Run
-   cd react-crud-app
-   ```
-
-   npm install
-   
-
-3. **Run the app:**
-   ```bash
-   npm run dev
-   ```
 
 ## 📝 Dummy Login Credentials
 Use the following credentials to log in:
