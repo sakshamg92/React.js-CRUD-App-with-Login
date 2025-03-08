@@ -1,63 +1,12 @@
-# React.js CRUD App with Login
+# React + Vite
 
-## 🚀 Project Overview
-This is a simple **React.js** web application that includes:
-- A **Login Page** that calls an API for authentication.
-- A **Dashboard** that performs **CRUD operations** (Create, Read, Update, Delete) using dummy APIs from [DummyJSON](https://dummyjson.com/).
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🛠️ Features
-✅ User Login using DummyJSON API  
-✅ Fetch and Display Users (Read)  
-✅ Add New Users (Create)  
-✅ Edit Existing Users (Update)  
-✅ Delete Users (Delete)  
-✅ Styled UI with CSS Modules  
+Currently, two official plugins are available:
 
-## 📂 Project Structure
-```
-react-crud-app/
-│── src/
-│   │── components/
-│   │   ├── Login.jsx
-│   │── pages/
-│   │   ├── Dashboard.jsx
-│   │   ├── Dashboard.module.css
-│   │── App.jsx
-│   │── main.jsx
-│── public/
-│── package.json
-│── README.md
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🔥 Installation & Setup
-### **1️⃣ Create and Set Up the Project**
-```bash
-npm create vite@latest react-crud-app --template react
-cd react-crud-app
-```
+## Expanding the ESLint configuration
 
-### **2️⃣ Install Dependencies**
-```bash
-npm install
-npm install axios react-router-dom
-```
-This will install all necessary dependencies, including:
-- **React** (`react`, `react-dom`)
-- **React Router** (`react-router-dom`)
-- **Axios** (for API calls)
-
-### **3️⃣ Run the Application**
-```bash
-npm run dev
-```
-Your app will be available at **http://localhost:5173/** (default Vite port).
-
-## 📝 Dummy Login Credentials
-Use the following credentials to log in:
-```plaintext
-Username: kminchelle
-Password: 0lelplR
-```
-[https://dummyjson.com/users](https://dummyjson.com/users).
-
-
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
