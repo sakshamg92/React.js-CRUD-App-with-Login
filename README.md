@@ -29,6 +29,28 @@ react-crud-app/
 │── README.md
 ```
 
+## 🔥 Installation & Setup
+### **1️⃣ Create and Set Up the Project**
+```bash
+npm create vite@latest react-crud-app --template react
+cd react-crud-app
+```
+
+### **2️⃣ Install Dependencies**
+```bash
+npm install
+npm install axios react-router-dom
+```
+This will install all necessary dependencies, including:
+- **React** (`react`, `react-dom`)
+- **React Router** (`react-router-dom`)
+- **Axios** (for API calls)
+
+### **3️⃣ Run the Application**
+```bash
+npm run dev
+```
+Your app will be available at **http://localhost:5173/** (default Vite port).
 
 ## 📝 Dummy Login Credentials
 Use the following credentials to log in:
@@ -36,14 +58,6 @@ Use the following credentials to log in:
 Username: kminchelle
 Password: 0lelplR
 ```
-More users can be found at [https://dummyjson.com/users](https://dummyjson.com/users).
-
-## 🔗 API Endpoints Used
-- **Login:** `POST https://dummyjson.com/auth/login`
-- **Get Users:** `GET https://dummyjson.com/users`
-- **Add User:** `POST https://dummyjson.com/users/add`
-- **Update User:** `PUT https://dummyjson.com/users/{id}`
-- **Delete User:** `DELETE https://dummyjson.com/users/{id}`
-
+[https://dummyjson.com/users](https://dummyjson.com/users).
 
 
