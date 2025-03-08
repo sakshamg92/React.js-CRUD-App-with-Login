@@ -30,9 +30,6 @@ react-crud-app/
 ```
 
 ## 🔥 Setup & Run
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-repo/react-crud-app.git
    cd react-crud-app
    ```
 
@@ -61,10 +58,5 @@ More users can be found at [https://dummyjson.com/users](https://dummyjson.com/u
 - **Update User:** `PUT https://dummyjson.com/users/{id}`
 - **Delete User:** `DELETE https://dummyjson.com/users/{id}`
 
-## 📌 Next Steps
-- Add **JWT Authentication** for real login.
-- Use a **real backend (Node.js/Express, Firebase, etc.)**.
-- Improve UI/UX with more styling.
 
-Happy Coding! 🚀
 
